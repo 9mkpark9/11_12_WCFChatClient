@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="df1cd09a-22a6-4ffe-bf4d-14db8ce7c0bf" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="abf68e93-0ba1-4c11-b2a5-eafbb5d8aec3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,13 +19,13 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://119.203.7.251:9000/GetService" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:9000/GetService" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="ChatService.wsdl" MetadataType="Wsdl" ID="a6310ee0-30de-4c4b-80b1-a1244c9a2aed" SourceId="1" SourceUrl="http://119.203.7.251:9000/GetService?wsdl" />
-    <MetadataFile FileName="GetService.disco" MetadataType="Disco" ID="e3b92ff4-1efd-4da8-89ba-255be3757da3" SourceId="1" SourceUrl="http://119.203.7.251:9000/GetService?disco" />
-    <MetadataFile FileName="GetService.xsd" MetadataType="Schema" ID="96a1926f-3ed0-4863-bc6b-53e2d37583c3" SourceId="1" SourceUrl="http://119.203.7.251:9000/GetService?xsd=xsd0" />
-    <MetadataFile FileName="GetService1.xsd" MetadataType="Schema" ID="6fd09950-0c75-4b17-ab09-df1de2b8afcb" SourceId="1" SourceUrl="http://119.203.7.251:9000/GetService?xsd=xsd1" />
+    <MetadataFile FileName="GetService.xsd" MetadataType="Schema" ID="89ff1c92-37ec-4b08-8fdd-bcf49aa5baf3" SourceId="1" SourceUrl="http://localhost:9000/GetService?xsd=xsd0" />
+    <MetadataFile FileName="GetService1.xsd" MetadataType="Schema" ID="ee7df014-4b41-4a2b-a7be-5fd7ed1d7fa2" SourceId="1" SourceUrl="http://localhost:9000/GetService?xsd=xsd1" />
+    <MetadataFile FileName="ChatService.wsdl" MetadataType="Wsdl" ID="c0e56975-425a-4163-a6f6-aa6b9d6701df" SourceId="1" SourceUrl="http://localhost:9000/GetService?wsdl" />
+    <MetadataFile FileName="GetService.disco" MetadataType="Disco" ID="0cfbfdbd-702b-48be-943f-6133bcb8762e" SourceId="1" SourceUrl="http://localhost:9000/GetService?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

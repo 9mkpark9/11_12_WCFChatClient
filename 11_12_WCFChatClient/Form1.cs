@@ -19,14 +19,14 @@ namespace _11_12_WCFChatClient
         {
             InitializeComponent();
             textBox3.Text = "윤준서";
-            _proxy = new ChatClient(new InstanceContext(this));
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            if (_proxy.Join(textBox3.Text, DateTime.Now) == true) 
+            _proxy = new ChatClient(new InstanceContext(this));
+
+            if (_proxy.Join(textBox3.Text, DateTime.Now) == true)
                 textBox1.AppendText("연결 성공\r\n");
-            
-            else 
+            else
                 textBox1.AppendText("연결 실패\r\n");
         }
 
