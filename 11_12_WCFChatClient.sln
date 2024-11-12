@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_12_WCFChatClient", "11_12_WCFChatClient\11_12_WCFChatClient.csproj", "{8C3FA336-DDE7-4C96-A9BB-7D77C123E862}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C3FA336-DDE7-4C96-A9BB-7D77C123E862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3FA336-DDE7-4C96-A9BB-7D77C123E862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3FA336-DDE7-4C96-A9BB-7D77C123E862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3FA336-DDE7-4C96-A9BB-7D77C123E862}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17FE35C1-3053-4B8B-BCA3-2BB3E18E887B}
+	EndGlobalSection
+EndGlobal
